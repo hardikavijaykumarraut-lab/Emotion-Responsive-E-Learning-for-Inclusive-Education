@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd emolearn/frontend && npm run build",
+  "outputDirectory": "emolearn/frontend/build",
+  "framework": "create-react-app",
+  "env": {
+    "REACT_APP_API_URL": "@react-app-api-url",
+    "REACT_APP_WEBSOCKET_URL": "@react-app-websocket-url",
+    "REACT_APP_PYTHON_SERVICE_URL": "@react-app-python-service-url"
+  }
+}
